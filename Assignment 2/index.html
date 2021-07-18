@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
+  <head>
+    <meta charset="utf-8">
+    <title>Assignment 2 - Shalif Shaoul - EverUp Software Engineering MicroCredential</title>
+    <link rel="stylesheet" href="Assignment2style.css">
+    <link rel="import" href="Assignment1.html">
+  </head>
+
+
+  <body>
+    <header>
+      <nav>
+        <ul class="nav">
+          <li><button> HOME </button></li>
+          <li><button> ABOUT </button></li>
+          <li><button> BOOK </button></li>
+          <li><button> CONTACT </button></li>
+        </ul>
+      </nav>
+    </header>
+
+<!-- Assignment 1 HTML embed -->
+    <embed class="embed" type="text/html" src="Assignment1.html">
+
+<!-- IMG embed -->
+    <img src="NYC-1.jpg" alt="View of NYC" title="New York City">
+
+<!-- Text Block -->
+    <div class="tbox1">
+      <p class="p1"> This is the hotpink paragraph, font family is Arial. </p>
+      <p class="p2"> This is the pink paragraph, font family is Courier. </p>
+      <p class="p3"> This is the lightpink paragraph, font family is Corsiva. </p>
+
+    </div>
+
+<!-- Button -->
+    <button type="button" id="button" class="ogebut"
+    onclick="openfunction()"> This is a button </button>
+
+<!-- Footer Block -->
+    <footer>
+      <p class="pfooter"> Study Button, Input, Form and Textarea Elements</p>
+    </footer>
+
+<!-- Button Popup Block -->
+  <div class="popupsetup">
+      <div class="popupcontent">
+        <img class="popupimg" src="popuplogo.jpg" alt="avatarlogo">
+        <div class="close" onclick="closefunction()">+</div>
+
+        <form class="form1" action="" method="">
+          <input class="popupinput" type="text"
+          name="Name" value="" placeholder="Name">
+
+          <input class="popupinput" type="text"
+          name="Email" value="" placeholder="Email">
+
+          <button type="button" id="closebut" class="submit"
+          onclick="closefunction()"> Submit </button>
+        </form>
+      </div>
+    </div>
+
+    <script>
+      function openfunction(){
+          document.querySelector('.popupsetup').style.display = 'flex';
+      }
+
+      function closefunction(){
+        document.querySelector('.popupsetup').style.display = 'none';
+      }
+    </script>
+
+  </body>
+</html>

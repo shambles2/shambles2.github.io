@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.block {
+  width: 1000px;
+  height: 400px;
+
+  background-color: lightpink;
+
+  border: 2px solid white;
+  border-radius: 20px;
+
+  display: flex;
+  margin: auto;
+}
+
+.sub{
+  width: 30%;
+  height: 50%;
+
+  float: left;
+  padding: 5px;
+
+  display: flex;
+  margin: auto;
+}
+
+.sub > img {
+  width: 100%;
+  height: 100%;
+
+  border: 2px solid white;
+  border-radius: 18px;
+}
+
+
+.p1 {
+  color: white;
+
+  font-family: 'Indie Flower', cursive;
+  font-size: 22px;
+  font-weight: 400;
+
+}

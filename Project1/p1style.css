@@ -1,0 +1,165 @@
+header {
+  display: flex;
+  justify-content: space-between;
+
+  border:2px solid lightgrey;
+
+  padding: 8px;
+}
+
+.headerimg1 {
+  width: 6%;
+  height: 6%;
+
+  padding-top: 8px;
+}
+
+.headerimg2 {
+  width: 6%;
+  height: 5%;
+}
+
+.intro {
+  background-color: lightblue;
+  text-align: center;
+}
+
+.landing{
+  background-color: lightpink;
+  border: 2px solid grey;
+  height: 50%;
+}
+
+.landing h2, .landing p {
+  width:100%;
+  height: 50%;
+  color: white;
+}
+
+.landing h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.imgcontainer1{
+  width: 20%;
+  height: 25%;
+  color: white;
+  float: left;
+  padding-left: 8%;
+}
+
+.imgcontainer2{
+  width: 20%;
+  height: 30%;
+
+  color: white;
+
+  float: right;
+  padding-right: 8%;
+  padding-top: 15%;
+}
+
+.landingimg {
+  width: 100%;
+  height: 100%;
+
+  border: 2px solid purple;
+
+}
+
+.imgcontainer1 figcaption, .imgcontainer2 figcaption {
+  font-style: italic;
+}
+
+.imgcontainer1 a, .imgcontainer2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.txtcontainer1 {
+  width: 50%;
+  font-size: 19px;
+  text-align: justify;
+
+  padding-left: 45%;
+}
+
+.txtcontainer2 {
+  width: 40%;
+  font-size: 19px;
+  text-align: justify;
+
+  padding-left: 8%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+.newslist dt {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.costanalysis {
+  border: 2px solid black;
+}
+
+.r1 {
+  background-color: lightgreen;
+}
+
+.ticprice {
+  background-color: lightpink;
+}
+
+.total {
+  font-weight: bold;
+  background-color: lightgreen;
+}
+
+.contact{
+  /* width: auto;
+  height: auto; */
+
+  overflow: hidden;
+}
+
+.contactimg {
+  width: 5%;
+  height: 15%;
+  padding-left: 3%;
+}
+
+.contactimg img {
+  width: 100%;
+  height: 100%;
+  float: left;
+  padding: 40%;
+}
+
+.contacttxt {
+  float: left;
+  padding-top: 3.5%;
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav li {
+  display: inline-flex;
+  padding: 50px;
+}
+
+.nav li a {
+  /* text-decoration: none; */
+  padding: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: block;
+}
+
+.footertxt {
+  font-weight: bold;
+  text-align: center;
+}

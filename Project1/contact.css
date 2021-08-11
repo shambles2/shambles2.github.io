@@ -1,0 +1,49 @@
+.head {
+  text-align: center;
+}
+
+.details{
+  float: left;
+
+  width: 20%;
+}
+
+.info {
+  margin-bottom: 1%;
+}
+
+.comment {
+  height: 70px;
+  margin-bottom: 1%;
+}
+
+.submit {
+  background-color: black;
+  color: white;
+  margin-left: 38%;
+}
+
+.submit:hover {
+  background-color: grey;
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav li {
+  display: inline-flex;
+  padding: 50px;
+}
+
+.nav li a {
+  padding: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: block;
+}
+
+.footertxt {
+  font-weight: bold;
+  text-align: center;
+}
